@@ -51,3 +51,7 @@
 4. Малый набор параметров.
 
 5. Точки с одинаковым расстоянием вызывают неопределенность 
+
+Иллюстрация к проекту:
+
+![alt text](https://github.com/Fenina-Evgenia/systems-and-methods-of-decision-making/blob/master/loo.png)
