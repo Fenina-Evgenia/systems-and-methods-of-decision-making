@@ -32,9 +32,18 @@
 
 Реализация алгоритма: [kNN](knn.R)
 
+Как выбрать *k*:
+
+При *k = 1* получим метод ближайшего соседа и, соответственно, неустойчивость к шуму
+
+При *k = l* наоборот, алгоритм чрезмерно устойчив и вырождается в констатну. 
+
+Таким образом, крайние значения *k* нежелательны. На практике оптимальное *k* подбирается по критерию скользящего контроля LOO
+
 Иллюстрация к проекту:
 
-![alt text](https://github.com/Fenina-Evgenia/systems-and-methods-of-decision-making/blob/master/knn.png)
+![alt text](https://github.com/Fenina-Evgenia/systems-and-methods-of-decision-making/blob/master/kNN%26LOO.png)
+
 
 ### Преимущества:
 1. Простота реализации.
@@ -52,6 +61,4 @@
 
 5. Точки с одинаковым расстоянием вызывают неопределенность 
 
-Иллюстрация к проекту:
 
-![alt text](https://github.com/Fenina-Evgenia/systems-and-methods-of-decision-making/blob/master/loo.png)
