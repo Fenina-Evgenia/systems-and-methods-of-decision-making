@@ -32,4 +32,4 @@ for(i in col3) {
   }
 }
 
-legend("bottomleft", c("virginica", "versicolor", "setosa"), pch = c(15,15,15), col = c("blue", "green3", "red"))
+legend("bottomright", c("virginica", "versicolor", "setosa"), pch = c(15,15,15), col = c("blue", "green3", "red"))
